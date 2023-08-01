@@ -7,3 +7,10 @@ npm i @types/react-router-dom -D
 npm i @emotion/react @emotion/styled
 
 npm i react-icons
+
+
+npm i axios
+
+npm i react-slick
+
+npm i @types/react-slick -D
