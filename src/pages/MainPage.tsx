@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import LatestMovieSection from "../features/movie/latest";
 import NowPlayingSection from "../features/movie/nowPlaying";
 import PopularMovieSection from "../features/movie/popular";
+import TopRateMovieSection from "../features/movie/topRate";
 
 const Main = styled.main`
   max-width: 1200px;
@@ -25,6 +26,7 @@ const MainPage: React.FC = () => (
         <LatestMovieSection />
         <NowPlayingSection />
         <PopularMovieSection />
+        <TopRateMovieSection />
       </Container>
     </Main>
     <Footer />

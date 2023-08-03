@@ -83,7 +83,10 @@ const Card: React.FC<Props> = (
 
         <Base>
           <ImageWrapper>
-            <Image src={posterPath} alt={title} />
+            <Image src={
+              posterPath ? `${process.env.REACT_APP_API_IMAGE_HOST}/${posterPath}` :
+              process.env.REACT_APP_API_IMAGE_NOT_FOUND
+            } alt={title} />
           </ImageWrapper>
           <Info>
             <Title>{title}</Title>

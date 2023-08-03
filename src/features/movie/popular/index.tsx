@@ -35,7 +35,7 @@ const PopularMovieSection: React.FC = () => {
                   key={movie.id}
                   linkUrl={`/movie/${movie.id}`}
                   title={movie.title}
-                  posterPath={`${process.env.REACT_APP_API_IMAGE_HOST}/${movie.poster_path}`}
+                  posterPath={movie.poster_path}
                   voteAverage={movie.vote_average}
                   year={getYear(movie.release_date)}
                 />
