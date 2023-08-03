@@ -14,3 +14,6 @@ npm i axios
 npm i react-slick
 
 npm i @types/react-slick -D
+
+
+npm i react-query 
